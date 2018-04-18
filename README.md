@@ -1,6 +1,6 @@
 # Bouncy-Carlos-s
 ## Bouncing Carlos Matos
-## User Manual
+### User Manual
 - Clone the repository
 - Open Bouncy_Carloss.pde
 - If you get asked to make a new folder to put that file in click "OK".
