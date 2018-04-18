@@ -1,4 +1,4 @@
-//toevoegingen
+ //toevoegingen
 import processing.video.*;
 
 Movie movie;
@@ -16,6 +16,8 @@ void setup() {
   
   movie = new Movie(this,"EDMRemix.mp4");
   movie.loop();
+  
+
   
   for(int  i = 0; i < aantalVierkanten; i++) {
     int startx =  round(random(0,width-afmeting));
@@ -54,9 +56,8 @@ void draw() {
 }
 
 void mousePressed() {
-    
+  PImage ChangeCarlos = loadImage("image18.png");
   for(int i = 0; i < aantalVierkanten; i++) {
-    PImage ChangeCarlos = loadImage("image18.png");
     vierkanten[i].ChangeCarlos(mouseX, mouseY, ChangeCarlos);    
     vierkanten2[i].ChangeCarlos(mouseX, mouseY, ChangeCarlos);
     vierkanten3[i].ChangeCarlos(mouseX, mouseY, ChangeCarlos);
