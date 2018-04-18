@@ -8,3 +8,6 @@
 - Install the library named "Video"
 - Make sure you're working with the 64-bit version of Processing
 - Only execute it with the size()-method set to 1280 x 720 (for the background)
+
+---
+- Click on a bouncing Carlos to make him change
